@@ -1,0 +1,39 @@
+{
+  "name": "@mubarranaz/number_guess_game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "tsc && node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mubarra-naz/TS_01_number_guess_game.git"
+  },
+  "keywords": [
+    "typescript",
+    "node",
+    "cli",
+    "command",
+    "prompt",
+    "js",
+    "inquirer",
+    "chalk"
+  ],
+  "author": "@mubarranaz",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mubarra-naz/TS_01_number_guess_game/issues"
+  },
+  "homepage": "https://github.com/Mubarra-naz/TS_01_number_guess_game#readme",
+  "dependencies": {
+    "chalk": "^5.2.0",
+    "inquirer": "^9.1.4"
+  },
+  "devDependencies": {
+    "@types/inquirer": "^9.0.3"
+  },
+  "bin": "buil/index.js"
+}
